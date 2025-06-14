@@ -25,20 +25,4 @@ import "fmt"
  */
 func main() {
 
-	input := -1
-	fmt.Print("Welches Jahr soll überprüft werden? ")
-	fmt.Scan(&input)
-
-	fmt.Print("Das Jahr ", input, " ist ")
-	if input%400 == 0 {
-		fmt.Print("ein")
-	} else if input%100 == 0 {
-		fmt.Print("kein")
-	} else if input%4 == 0 {
-		fmt.Print("ein")
-	} else {
-		fmt.Print("kein")
-	}
-	fmt.Println(" Schaltjahr")
-
 }
