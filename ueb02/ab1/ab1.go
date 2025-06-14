@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 /**
 *
 * Aufgabe 1
@@ -11,20 +15,21 @@ package main
 *		Ob die Zahl eine perfekte Zahl ist 
 *
 * Dabei wird die Zahl nur ausgegeben wenn eine der Eigenschaften zutrifft.
-* Zusätzlich muss noch der Interval überprüft werden ob er gültig ist, (start <= end)
-*	
+* Zusätzlich muss noch der Interval überprüft werden, ob diese gültig ist (start <= end)
+* und dementsprechend folgt eine geeignete Fehlerbehandlung.
+*
 * Beispiel:
 *   > 0 
 *   > 6
-*	0 : gerade
-*   2 : gerade, primenzahl,
-*	3 : primenzahl
-*   4 : gerade
-*   5 : primenzahl
-*	6 : perfekt, gerade 
+* 0: gerade,
+* 2: gerade, primenzahl,
+* 3: primenzahl,
+* 4: gerade,
+* 5: primenzahl,
+* 6: gerade, perfekt,
 *
-* Unerlaubte Mittel: Funktionen, Arrays, Strings 
-*/
+* Unerlaubte Mittel: Funktionen, Arrays, Strings
+ */
 func main() {
 	
-}	
+}
