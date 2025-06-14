@@ -20,11 +20,4 @@ import "fmt"
 const INPUT int64 = 10
 
 func main() {
-	if INPUT < 0 {
-		fmt.Println("Die Zahl", INPUT, "ist negativ")
-	} else if INPUT == 0 {
-		fmt.Println("Die Zahl", INPUT, "ist null")
-	} else {
-		fmt.Println("Die Zahl", INPUT, "ist positiv")
-	}
 }
