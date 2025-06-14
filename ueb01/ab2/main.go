@@ -1,5 +1,6 @@
 package main
 
+import "fmt"
 
 /*
  * Aufgabe 2
@@ -24,5 +25,18 @@ package main
  */
 
 func main() {
+	fmt.Println("Wie lautet ihr Dreieck?")
+	x, y, z := 0, 0, 0
+	fmt.Print("1. Seite ")
+	fmt.Scan(&x)
+	fmt.Print("2. Seite ")
+	fmt.Scan(&y)
+	fmt.Print("3. Seite ")
+	fmt.Scan(&z)
 
+	if x < y+z && y < x+z && z < x+y {
+		fmt.Println("Die Seiten", x, y, z, "bilden ein gültiges Dreieck.")
+	} else {
+		fmt.Println("Die Seiten", x, y, z, "bilden kein gültiges Dreieck.")
+	}
 }
