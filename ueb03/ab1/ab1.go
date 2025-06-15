@@ -28,24 +28,6 @@ Beispiel:
 */
 
 func main() {
-	fmt.Println("Welche Zahl wollen sie in Binärdarstellen?")
-		
-
-	var x uint64
-	fmt.Scan(&x)
-	
-	fmt.Print("Ihre Zahl lautet: ")
-	fmt.Printf("%b \n", x)
-
-	for i:= 0; i < 64; i++ {
-		if x & 0x8000000000000000 == 0 {
-			fmt.Print("0")
-		} else {
-			fmt.Print("1")
-		}
-		x <<= 1
-	}
-	fmt.Print("\n")
 
 }
 
