@@ -12,6 +12,9 @@ in ein Binärzahl umwandelt.
 Der Fall das der Benutzer ein Zahl eingibt, welches grösser ist als 
 uint16 soll nicht überprüft werden.
 
+Zusätzlich soll die vollständige Binärzahl ausgegeben werden. 
+(In diesen Fall 16 bit)
+
 Beispiel: 
 
 > Zahl: 0
@@ -23,6 +26,7 @@ Beispiel:
 > Zahl: 255
 > 0000 0000 1111 1111 
 */
+
 func main() {
 	fmt.Println("Welche Zahl wollen sie in Binärdarstellen?")
 		
