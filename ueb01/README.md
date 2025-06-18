@@ -1,6 +1,6 @@
 # Hinweis 
 
-Bei diesen Aufgabenabschnitt sind folgende erlaubt:
+Bei diesen Aufgabenabschnitt sind folgende Konzepte erlaubt:
 
 - Primitive Datentypen
 - Variablen, Konstanten
